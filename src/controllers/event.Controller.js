@@ -1,5 +1,6 @@
 import { Event } from "../models/Event.models.js";
-import {uploadcloudnary} from "../utils/Cloudinary.js";
+import { uploadcloudnary } from "../utils/cloudinary.js";
+
 import {asyncHandler} from "../utils/AsycHandler.js";
 import { io } from "../index.js"; 
 
