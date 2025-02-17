@@ -14,7 +14,7 @@ const server = http.createServer(app);
 // Attach WebSocket to the same server  
 const io = new Server(server, {
     cors: {
-        origin: "*",
+        origin: "https://event-managementpuce.vercel.app",
         methods: ["GET", "POST"]
     }
 });
